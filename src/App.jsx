@@ -7,7 +7,7 @@ import { SearchPage } from "./pages/SearchPage";
 
 const router = createBrowserRouter([
   {
-    path: "/nytbest",
+    path: "/",
     element: <Homepage />,
   },
   {
