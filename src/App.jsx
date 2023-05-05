@@ -7,23 +7,23 @@ import { SearchPage } from "./pages/SearchPage";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/nytbest",
     element: <Homepage />,
   },
   {
-    path: "/:categoryId",
+    path: "/nytbest/:categoryId",
     element: <CategoryPage />,
   },
   {
-    path: "/:categoryId/:bookId",
+    path: "/nytbest/:categoryId/:bookId",
     element: <BookPage />,
   },
   {
-    path: "/bestsellers",
+    path: "/nytbest/bestsellers",
     element: <BestsellersPage />,
   },
   {
-    path: "/search",
+    path: "/nytbest/search",
     element: <SearchPage />,
   },
 ]);
