@@ -78,13 +78,13 @@ export const Footer = ({ categoriesArray, bookCategory }) => {
       <Wrapper>
         <Left>
           <Logo>
-            <FooterLink to="/">NytBest</FooterLink>
+            <FooterLink to="/nytbest">NytBest</FooterLink>
           </Logo>
         </Left>
         <Center>
           <Menu>
             <MenuItem>
-              <FooterLink to="/">Home</FooterLink>
+              <FooterLink to="/nytbest">Home</FooterLink>
             </MenuItem>
             <MenuItem>
               <FooterLink to="/bestsellers">Bestsellers</FooterLink>

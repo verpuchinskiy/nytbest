@@ -11,19 +11,19 @@ const router = createBrowserRouter([
     element: <Homepage />,
   },
   {
-    path: "/nytbest/:categoryId",
+    path: "/:categoryId",
     element: <CategoryPage />,
   },
   {
-    path: "/nytbest/:categoryId/:bookId",
+    path: "/:categoryId/:bookId",
     element: <BookPage />,
   },
   {
-    path: "/nytbest/bestsellers",
+    path: "/bestsellers",
     element: <BestsellersPage />,
   },
   {
-    path: "/nytbest/search",
+    path: "/search",
     element: <SearchPage />,
   },
 ]);

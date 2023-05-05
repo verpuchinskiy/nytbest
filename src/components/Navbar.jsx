@@ -69,12 +69,12 @@ export const Navbar = ({ categoriesArray, bookCategory }) => {
   return (
     <Container>
       <Wrapper>
-        <MenuLink to="/">
+        <MenuLink to="/nytbest">
           <Logo>NytBest</Logo>
         </MenuLink>
         <Menu>
           <MenuItem>
-            <MenuLink to="/">Home</MenuLink>
+            <MenuLink to="/nytbest">Home</MenuLink>
           </MenuItem>
           <MenuItem>
             <MenuLink to="/bestsellers">Bestsellers</MenuLink>
