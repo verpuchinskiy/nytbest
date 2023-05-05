@@ -89,7 +89,7 @@ export const CategoriesVertical = () => {
           .sort((a, b) => a.display_name.localeCompare(b.display_name))
           .map((category) => (
             <Link
-              to={`/${category.list_name_encoded}`}
+              to={`/nytbest/${category.list_name_encoded}`}
               key={category.list_name}
               style={{ textDecoration: "none", color: "inherit" }}
             >

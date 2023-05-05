@@ -28,7 +28,7 @@ const CategoriesBlock = styled.div`
   gap: 20px;
 `;
 
-export const Categories = ({categoriesArray}) => {
+export const Categories = ({ categoriesArray }) => {
   // const [categoriesArray, setCategoriesArray] = useState();
 
   // useEffect(() => {
@@ -87,7 +87,7 @@ export const Categories = ({categoriesArray}) => {
         <CategoriesBlock>
           {mergedCategoriesArray.map((category) => (
             <Link
-              to={`/${category.list_name_encoded}`}
+              to={`/nytbest/${category.list_name_encoded}`}
               key={category.list_name}
               style={{ textDecoration: "none" }}
             >

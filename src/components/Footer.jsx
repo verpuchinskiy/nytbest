@@ -87,10 +87,10 @@ export const Footer = ({ categoriesArray, bookCategory }) => {
               <FooterLink to="/nytbest">Home</FooterLink>
             </MenuItem>
             <MenuItem>
-              <FooterLink to="/bestsellers">Bestsellers</FooterLink>
+              <FooterLink to="/nytbest/bestsellers">Bestsellers</FooterLink>
             </MenuItem>
             <MenuItem>
-              <FooterLink to="/search">Search</FooterLink>
+              <FooterLink to="/nytbest/search">Search</FooterLink>
             </MenuItem>
           </Menu>
         </Center>

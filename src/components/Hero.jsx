@@ -11,7 +11,6 @@ const Container = styled.div`
   justify-content: center;
 
   @media (max-width: 800px) {
-    
   }
 `;
 
@@ -146,7 +145,7 @@ export const Hero = ({ categoriesArray }) => {
   const handleClick = () => {
     const randomIndex = Math.floor(Math.random() * categoriesArray.length);
     const randomCategory = categoriesArray[randomIndex].list_name_encoded;
-    navigate(`/${randomCategory}`);
+    navigate(`/nytbest/${randomCategory}`);
   };
 
   return (

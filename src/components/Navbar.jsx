@@ -77,10 +77,10 @@ export const Navbar = ({ categoriesArray, bookCategory }) => {
             <MenuLink to="/nytbest">Home</MenuLink>
           </MenuItem>
           <MenuItem>
-            <MenuLink to="/bestsellers">Bestsellers</MenuLink>
+            <MenuLink to="/nytbest/bestsellers">Bestsellers</MenuLink>
           </MenuItem>
           <MenuItem>
-            <MenuLink to="/search">Search</MenuLink>
+            <MenuLink to="/nytbest/search">Search</MenuLink>
           </MenuItem>
         </Menu>
       </Wrapper>

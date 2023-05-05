@@ -63,10 +63,10 @@ export const SingleBestseller = ({
 }) => {
   return (
     <Container>
-      <BookLink to={`/${categoryNameUrl}`}>
+      <BookLink to={`/nytbest/${categoryNameUrl}`}>
         <CategoryName>{categoryName}</CategoryName>
       </BookLink>
-      <BookLink to={`/${categoryNameUrl}/${isbn}`}>
+      <BookLink to={`/nytbest/${categoryNameUrl}/${isbn}`}>
         <BookImg src={bookImg} />
         <BookTitle>{bookTitle}</BookTitle>
         <BookAuthor>{bookAuthor}</BookAuthor>

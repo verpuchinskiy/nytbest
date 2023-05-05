@@ -124,7 +124,7 @@ export const SearchResults = ({ results }) => {
               {result.isbns &&
               result.isbns.length > 0 &&
               result.isbns[0].isbn10 ? (
-                <BookLink to={`/search/${result.isbns[0].isbn10}`}>
+                <BookLink to={`/nytbest/search/${result.isbns[0].isbn10}`}>
                   {result.title}
                 </BookLink>
               ) : (

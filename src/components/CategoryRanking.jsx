@@ -211,7 +211,7 @@ export const CategoryRanking = ({
                   </StyledTableCell>
                   <StyledTableCell>
                     <BookLink
-                      to={`/${categoryId}/${primaryIsbn}`}
+                      to={`/nytbest/${categoryId}/${primaryIsbn}`}
                       primaryisbn={primaryIsbn}
                     >
                       {/* {loading ? (
